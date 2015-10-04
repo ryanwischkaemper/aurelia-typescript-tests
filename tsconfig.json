@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "amd",
+        "moduleResolution": "classic",
+        "declaration": false,
+        "noImplicitAny": false,
+        "noResolve": true,
+        "removeComments": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    }
+}
